@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+    
+
+  header{
+    background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(10, 10, 70));
+    position: absolute;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar{
+    width: 100vw;
+    height: 100px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    background-image: url(../picture-video/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 45px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.header-nav{
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 100px;
+}
+
+.header-nav-item{
+    list-style-type: none;
+    margin-left: 5px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    line-height: 4rem;
+    margin-right: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.header-main-nav-link{
+    transition: 0.5s;
+}
+.header-main-nav-link{
+    color: white;
+}
+
+.header-main-nav-link:hover{
+    color: aqua;
+}
+body{
+    background-image: url(../picture-video/profile-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 1px 8px;
+}
+
+.car {
+    float: left;
+    width: 30%;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.car img {
+    width: 100px;
+    height: 60px;
+}
+.car img:hover{
+    scale: 4;
+    cursor: pointer;
+}
+
+.car h3 {
+    margin-top: 0;
+}
+
+.car p {
+    color: #666;
+}
+.car a{
+    width: 100%;
+    color:white;
+    background-color: rgb(21, 21, 56);
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.car a:hover{
+    color: white;
+    letter-spacing: 0.07em;
+    box-shadow: 0 0 20px rgba(70, 78, 189, 0.7);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+.buy-sell-button{
+    width: 100vw;
+    list-style-type: none;
+    display: flex;
+}
+.buy-sell-button li{
+    display: inline-block;
+    margin-right: 50px;
+    
+    
+}
+.buy-sell-button a{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 7px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(7, 7, 7, 1);
+    transition: 0.3s ease-in-out;
+}
+.buy-sell-button a:hover{
+    color: white;
+    background-color: blue;
+    box-shadow: 0 0 20px rgb(96, 106, 248);
+    letter-spacing: 0.2em;
+
+}

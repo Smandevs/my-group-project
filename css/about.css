@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/*--------------------------------nav bar------------*/
+header{
+  background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(10, 10, 70));
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+.navbar{
+  width: 100%;
+  height: 80px;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo{
+  width: 70px;
+  height: 70px;
+  background-image: url(../picture-video/logo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 35px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.header-nav{
+  display: flex;
+  margin-right: 120px;
+  margin-bottom: 30px;
+}
+
+.header-nav-item{
+  list-style-type: none;
+  margin-left: 5px;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  line-height: 4rem;
+  margin-right: 5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+.header-main-nav-link{
+  color: white;
+}
+
+.header-main-nav-link:hover{
+  color: aqua;
+}
+/*--------------------------------------body section--------------*/
+#Section1{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../picture-video/wallpaperflare.com_wallpaper1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.charis{
+    color: white;
+    padding-top: 500px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    position: absolute;
+}
+#Section2{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(205, 243, 243);
+}
+
+.Section-head-txt{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+#Box-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 30px 30px;
+}
+.Box{
+    width: 290px;
+    height: 190px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 35px black;
+}
+.Box h3{
+    padding-top: 60px;
+}
+.Box:hover{
+    box-shadow: 0 0 35px blue;
+}
+.h3{
+    text-size-adjust: 50px;
+}
+.containers{
+    height: 500px;
+    background: white;
+    position: relative;
+}
+.charis2{
+    width: 50%;
+    height: 200px;
+    background: cyan;
+    position: relative;
+    margin: 0% 25% auto;
+}
+.charis2 h1{
+    padding: 50px ;
+    text-align: center;
+}
+.box-container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 30px 30px;
+    margin: 25px 15% auto;
+}
+
+.box2{
+    width: 500px;
+    height: 400px;
+}
+.box2 h1{
+  padding-top: 60px;
+}
+.box2 img{
+  width: 400px;
+  height: 250px;
+}
+.centertxt{
+  text-align: center;
+}
+.logopic{
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+  padding: 30px 30px;
+  margin: 25px 15% auto;
+}
+.logopic img{
+  width: 100px;
+  height: 70px;
+}
+.bb{
+  background: rgba(1, 1, 27, 0.1);
+  height: 300px;
+  padding: 30px;
+}
+.foot{
+  width: 100%;
+  height: 40px;
+}
+.footer {
+  width:100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    z-index: 10;
+  }

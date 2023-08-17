@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    min-height: 110vh;
+}
+header{
+    background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(10, 10, 70));
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    background-image: url(../picture-video/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+.header-nav{
+    display: flex;
+    margin-right: 120px;
+    margin-bottom: 30px;
+}
+
+.header-nav-item{
+    list-style-type: none;
+    margin-left: 5px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    line-height: 4rem;
+    margin-right: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.header-main-nav-link{
+    color: white;
+}
+
+.header-main-nav-link:hover{
+    color: aqua;
+}
+main{
+    width: 100%;
+    height: 89Vh;
+    background-color: white;
+}
+/*-------------------page division into three halfs-----------------------------------------------------------------*/
+#main{
+    width:90% ;
+    height: 86vh;
+    background-color: white;
+    box-shadow: 0 3px 20px black;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    
+}
+#section1{
+    width: 250px;
+    height: 530px;
+    background-color: rgb(13, 13, 43);
+}
+#section2{
+    width: 280px;
+    height: 491px;
+    margin-top: 15px;
+}
+#section3{
+    width: 620px;
+    height: 491px;
+    padding: 10px 5px;
+}
+/*---------------------------details for first half-------------------------------------------*/
+#side-bar-edit{
+    margin-top: 50px;
+}
+.side-bar{
+    list-style-type:none;
+    text-align: center;
+    font-size: 18px;
+}
+.side-bar-items{
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.side-bar-links{
+    color: white;
+    transition: 0.5s;
+}
+.side-bar-links:hover{
+    color:black ;
+    letter-spacing: 0.17em;
+}
+.side-bar-items:hover{
+    background-color: aqua;
+    box-shadow: 0 3px 20px aqua;
+    border-radius: 5px;
+}
+/*-----------------------------------------------section 2--------------------------------------------------------------------*/
+.section2-div{
+    width: 250px;
+    height: 55px;
+    padding: 2px ;
+    margin-top: 7px;
+    border: none;
+    box-shadow: 0 3px 5px black;
+    border-radius: 10px;
+    line-height: 7px;
+}
+.section2-div p{
+    text-align: center;
+    font-size: 11px;
+}
+.section2-div h5{
+    text-align: center;
+}
+.section2-div h5:hover{
+    color: blue;
+}
+.section2-div:hover{
+    border: 1px solid blue;
+    box-shadow: 0 3px 20px blue;
+}
+/*------------------------------------------------section 3----------------------------------------------------------------------*/
+.profile-pic{
+    width: 70px;
+    height: 70px;
+    background-image: url(../picture-video/people2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 45px;
+    transition: 0.3s ease-in-out;
+}
+.profile-pic:hover{
+    scale: 3;
+    cursor: pointer;
+}
+#bar1{
+    width: 580px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 5px rgb(138, 138, 138);
+    padding: 11px 6px 3px 20px;
+    border-radius: 10px;
+
+}
+
+.text{
+    margin-right: 140px;
+    padding-top: 10px;
+    line-height: 10px;
+}
+#upload{
+    padding: 5px 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+#upload:hover{
+    color: white;
+    background-color: blue;
+    box-shadow: 0 1px 10px rgb(68, 80, 252);
+}
+#bar2{
+    width: 580px;
+    height: 330px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgb(138, 138, 138);
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.row1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+.inputbox input{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 90%;
+}
+.row2 input{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 95%;
+}
+.row2 {
+    margin-top: 5px;
+}
+#a{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+}
+#upload2{
+    width: 100%;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(13, 13, 43);
+    padding: 5px ;
+    margin-top: 10px;
+    text-align: center;
+}
+#upload2:hover{
+    box-shadow:0 1px 10px rgb(68, 80, 252);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
